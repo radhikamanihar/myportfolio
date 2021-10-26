@@ -1,18 +1,18 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { OverlayTrigger,Tooltip } from 'react-bootstrap'
 import { AiFillGithub,AiFillLinkedin,AiFillMail } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import themeicon from "../styles/themeicon.svg"
 
 const RightNav = () => {
-    const [theme,setTheme] =useState('light')
-    const toggleTheme = () => {
-        if (theme === 'light') {
-          setTheme('dark');
-        } else {
-          setTheme('light');
-        }
-      }
+    // const [theme,setTheme] =useState('light')
+    // const toggleTheme = () => {
+    //     if (theme === 'light') {
+    //       setTheme('dark');
+    //     } else {
+    //       setTheme('light');
+    //     }
+    //   }
       
     const renderTooltip = (props) => (
         <Tooltip id="button-tooltip" {...props}>

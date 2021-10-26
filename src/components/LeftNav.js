@@ -1,8 +1,7 @@
 import React from 'react'
 import "../styles/LeftNav.css"
-import about from "../styles/about.svg"
 import { Link } from 'react-router-dom'
-import { AiFillAccountBook, AiFillAlert, AiFillAlipayCircle, AiFillContacts, AiFillHome } from 'react-icons/ai'
+import { AiFillAccountBook, AiFillAlert,  AiFillContacts, AiFillHome } from 'react-icons/ai'
 
 const LeftNav = () => {
     return (

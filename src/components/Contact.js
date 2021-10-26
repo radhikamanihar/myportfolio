@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import axios from "axios"
-import {Form,Button, Container, Card,Row,Col} from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
 import "../styles/Contact.css"
-import {AiFillAccountBook, AiFillAlert, AiFillAlipayCircle, AiFillAliwangwang, AiFillAmazonSquare, AiOutlineSend} from "react-icons/ai"
+import {AiOutlineSend} from "react-icons/ai"
 const Contact = () => {
     const [contacter, setContacter] = useState({
         email: "", message: "", firstName: "",lastName:"",subject:""
@@ -122,7 +122,7 @@ const Contact = () => {
           		</div>
           		{/* <h4 className="mb-4">Website</h4> */}
                   <i class="bi bi-globe"></i>
-	            <p><a href="#">MyPortfolio.com</a></p>
+	            <p><a href="mailto:info@yoursite.com">MyPortfolio.com</a></p>
 	          </div>
           </div>
         </div>

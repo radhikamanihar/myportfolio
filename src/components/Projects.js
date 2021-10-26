@@ -1,8 +1,6 @@
-import React,{useState} from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import project from "../styles/project.svg"
 import "../styles/Projects.css"
-import { Card ,Button} from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import react from "../styles/react.png"
 import images from "../styles/images.jpeg"
@@ -10,7 +8,6 @@ import line from "../styles/line.jpeg"
 import bank from "../styles/bank.jpeg"
 
 const Projects = () => {
-    const [state, setstate] = useState(false)
     return (
         <div>
             <div className="project">

@@ -1,29 +1,24 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';  
-import img from "../styles/img.svg"
 import profile from "../styles/profile.jpg"
-import themeicon from "../styles/themeicon.svg"
-
-import {Link} from 'react-router-dom'
 import "../styles/Header.css"
 import Button from '@restart/ui/esm/Button';
-import { useHistory } from 'react-router';
-import { AiFillGithub, AiFillLinkedin, AiFillMail, AiFillSwitcher } from 'react-icons/ai';
-import { ButtonGroup } from 'react-bootstrap';
+// import { useHistory } from 'react-router';
+
 const Header = () => {
-  const history = useHistory();
+  // const history = useHistory();
 
-    const handleClick =(e) =>{
-        e.preventDefault()
-        console.log("you clicked")
-        let path="https://drive.google.com/file/d/1ACgLImPiPQLw0xrU8yx1sqXUThpLsLO3/view?usp=sharing"
+    // const handleClick =(e) =>{
+    //     e.preventDefault()
+    //     console.log("you clicked")
+    //     let path="https://drive.google.com/file/d/1ACgLImPiPQLw0xrU8yx1sqXUThpLsLO3/view?usp=sharing"
 
-    }
+    // }
     return (
         
     <div className="i">
       <div className="profile-main">
-        <img src={profile} className="profile"></img>
+        <img src={profile} className="profile" alt="profile"></img>
         
       </div>
 

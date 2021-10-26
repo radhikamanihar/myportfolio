@@ -1,8 +1,6 @@
 import React from 'react'
 import "../styles/About.css"
-import Header from './Header'
-import img from "../styles/profile.jpg"
-import { ListGroup } from 'react-bootstrap'
+
 
 
 const About = () => {
@@ -44,7 +42,7 @@ const About = () => {
           Hi!!
           <br/>
           I'm Radhika Manihar, an Electronics and Computer Engineering Undergraduate studying at
-          <a href="https://mbm.ac.in/" style={{fontWeight:"700"}} target="_blank"> &nbsp;M.B.M Engineering College,Jodhpur.</a>
+          <a href="https://mbm.ac.in/" style={{fontWeight:"700"}} target="_blank" rel="noopener noreferrer"> &nbsp;M.B.M Engineering College,Jodhpur.</a>
           I am a creative web developer and machine learning enthusiast and worked in these field in my engineering life. My few tech stacks that I enjoy working in is Python, React.js, 
           Computer Vision and solving DSA problems.
         </p>
@@ -54,7 +52,7 @@ const About = () => {
           <li>Worked on Face Recognition Project.</li>
           <li>Worked in the field of Machine Learning with Devops(MLOPS).</li>
           <li>Learning Full Stack Development</li>
-          <li>Active participation in live coding contests of <a href="https://www.codechef.com/users/radhikamanihar" target="_blank">Codechef</a> and <a target="_blank" href="https://www.hackerrank.com/radhikamanihar21">HackerRank.</a></li>
+          <li>Active participation in live coding contests of <a href="https://www.codechef.com/users/radhikamanihar" target="_blank" rel="noopener noreferrer">Codechef</a> and <a target="_blank" rel="noopener noreferrer" href="https://www.hackerrank.com/radhikamanihar21">HackerRank.</a></li>
           <li>Fun Fact: Foodie,Painter</li>
         </ul>
         <h5><strong>What excites me to code and Learn more?</strong></h5>
