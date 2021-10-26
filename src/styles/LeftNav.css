@@ -1,0 +1,44 @@
+nav {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 5%);
+    z-index: 999999;
+    height: 100vh;
+}
+
+nav .active {
+    display: none;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 20px;
+    transition: .3s ease;
+    font-size: .6em;
+    width: 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.icon{
+    justify-content: center;
+}
+
+.link{
+    font-size: 12px;
+}
+.nav div{
+    width: 100%;
+    margin-left:25px
+}

@@ -1,0 +1,28 @@
+.contact{
+      background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+    border-radius: 10px;
+    padding: 150px;
+    border-color: black ;
+    width:80%
+}
+
+.input{
+    width: 200px;
+    margin: auto;
+}
+.label{
+    display:inline-block
+}
+.contact input,.contact textarea{
+    background:none;
+    border-bottom: 1px solid #000000;
+    flex: 1 1 auto;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left:460px
+}
