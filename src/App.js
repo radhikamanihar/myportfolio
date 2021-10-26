@@ -24,9 +24,6 @@ const App = () => {
           <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route exact path="/certificates">
-            <Certificates />
-          </Route>
           <Route exact path="/about">
             <About/>
           </Route>
