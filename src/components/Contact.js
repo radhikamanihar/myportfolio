@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import contacters from "../apis/contacters.js"
-
+import axios from "axios"
 import {Form,Button, Container, Card,Row,Col} from 'react-bootstrap'
 import "../styles/Contact.css"
 import {AiFillAccountBook, AiFillAlert, AiFillAlipayCircle, AiFillAliwangwang, AiFillAmazonSquare, AiOutlineSend} from "react-icons/ai"
@@ -20,7 +19,7 @@ const Contact = () => {
     const handleSubmit = event => {
         event.preventDefault();
         
-        contacters.post('/contacters', {
+        axios.post('http://localhost:3000/contacters', {
             email: contacter.email,
             meaasge:contacter.message,
             subject:contacter.subject,
